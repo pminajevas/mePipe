@@ -1,0 +1,110 @@
+body {
+  background:rgb(241,247,252);
+  margin:0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+.reg {
+  background-color: white;
+  width: 50%;
+  margin: auto;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  min-width:815px;
+  margin-top:200px;
+}
+.left{
+  display:inline-block;
+  width: 55%;
+}
+.left img{
+  width:80%;
+  display:block;
+  margin:auto;
+  margin-bottom:25%;
+}
+.reg form{
+  display:inline-block;
+  width: 35%;
+  background-color: #ffffff;
+  color: #505e6c;
+  min-width:360px;
+}
+.reg h1{
+  color:#505e6c;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.regform input{
+  display:block;
+  background: #f7f9fc;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  text-indent: 6px;
+  height: 40px;
+  width:80%;
+  margin:auto;
+  margin-top:20px;
+}
+.regform button{
+  background:#3350D9;
+  border:none;
+  border-radius: 4px;
+  padding:11px;
+  color:white;
+  width:80%;
+  display:block;
+  margin:auto;
+  margin-top:35px;
+  font-size:1rem;
+}
+.regform button:hover{
+  background:#5b72e0;
+  cursor:pointer;
+}
+.regform label{
+  display:block;
+  margin:auto;
+  text-align:center;
+  margin-top:20px;
+}
+.regform label input{
+  display:inline-block;
+  width:0;
+  height:0;
+  margin:0;
+  margin-top:10px;
+}
+a{
+  text-decoration: none;
+  text-align: center;
+  display:block;
+  margin-top:20px;
+  margin-bottom:40px;
+  color: #6f7a85;
+  opacity: 0.9;
+}
+a:hover{
+  color: #0056b3;
+  cursor:pointer;
+}
+.signuperror{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:red;
+}
+.signupsuccess{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:green;
+}
+#terms{
+  display:inline-block;
+}
